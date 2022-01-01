@@ -1,6 +1,5 @@
 # -----------------------------------------
 # Author: Ana Patricia Balbon
-# Student number: 0790244
 # Email: abalbon@uoguelph.ca
 # Assignment 2
 # Description: This program reads in a FASTA file of a nucleotide sequence
