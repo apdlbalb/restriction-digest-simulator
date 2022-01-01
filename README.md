@@ -1,2 +1,8 @@
 # restriction-digest-simulator
-Takes a fasta file with a single sequence and a list of restriction enzymes with their recognition sites and returns cut DNA accordingly
+
+Please refer to `enzymes.txt` to see how the enzymes file should be formatted
+
+Run from command line as
+```
+python3 [py script] [enzyme file] [fasta file]
+```
