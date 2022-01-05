@@ -1,8 +1,12 @@
 # restriction-digest-simulator
 
-Please refer to `enzymes.txt` to see how the enzymes file should be formatted
-
-Run from command line as
+## Usage
 ```
-python3 [py script] [enzyme file] [fasta file]
+simulateDigest.py enzymes.txt sequence.fa
 ```
+where `enzymes.txt` looks like:
+```
+EcoRI;G%AATTC
+BamHI;G%GATCC
+```
+and where `sequence.fa` contains a single sequence in FASTA format.
