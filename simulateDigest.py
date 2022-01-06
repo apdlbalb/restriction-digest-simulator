@@ -11,6 +11,11 @@
 import sys
 import os
 
+# CONSTANTS --------------------------------------------------------------------
+# How to format report
+CHARACTERS_PER_CHUNK = 10
+CHUNKS_PER_LINE = 6
+
 # FUNCTIONS --------------------------------------------------------------------
 
 # Digest takes a DNA sequence "seq" and formatted information about the name of
@@ -57,11 +62,11 @@ def digest(seq, enzyme):
                 # Reset counts after meeting a cut site
                 spaceCount = 0
                 lineBreak = 0
-            if spaceCount == 10:
+            if spaceCount == CHARACTERS_PER_CHUNK:
                 print(" ", end = "")
                 spaceCount = 0 # Reset count
                 lineBreak += 1 # Increment to the next newline
-            if lineBreak == 6:
+            if lineBreak == CHUNKS_PER_LINE:
                 print("\n", end = "")
                 # Reset counts after line break
                 lineBreak = 0
