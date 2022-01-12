@@ -1,13 +1,3 @@
-# -----------------------------------------
-# Author: Ana Patricia Balbon
-# Email: abalbon@uoguelph.ca
-# Assignment 2
-# Description: This program reads in a FASTA file of a nucleotide sequence
-# and a text file of restriction enzymes, simulates a digest, and prints
-# a report.
-# Copyright (c) 2021. All rights reserved.
-# ------------------------------------------
-
 import sys
 import os
 
