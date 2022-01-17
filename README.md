@@ -3,7 +3,7 @@ This program takes a fasta file with a single sequence and a list of restriction
 ## Usage
 Please run in command line as follows:
 ```
-python3 simulateDigest.py enzymes.txt sequence.fa
+python3 simulateDigest.py enzymes.txt sequence.fas
 ```
 where `enzymes.txt` looks like:
 ```
@@ -14,7 +14,7 @@ and where `sequence.fa` contains a single sequence in FASTA format.
 
 ## Sample output
 ```
-Restriction enzyme analysis of sequence from file testfas.fas
+Restriction enzyme analysis of sequence from file sequence.fa
 Cutting with enzymes found in file enzymes.txt
 -----------------------------------------------------------------
 Sequence name: TESTSEQ
