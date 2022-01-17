@@ -3,7 +3,7 @@ This program takes a fasta file with a single sequence and a list of restriction
 ## Usage
 Please run in command line as follows:
 ```
-simulateDigest.py enzymes.txt sequence.fa
+python3 simulateDigest.py enzymes.txt sequence.fa
 ```
 where `enzymes.txt` looks like:
 ```
