@@ -10,7 +10,7 @@ where `enzymes.txt` looks like:
 EcoRI;G%AATTC
 BamHI;G%GATCC
 ```
-and where `sequence.fa` contains a single sequence in FASTA format.
+and where `sequence.fas` contains a single sequence in FASTA format.
 
 ## Sample output
 ```
